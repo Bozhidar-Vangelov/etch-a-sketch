@@ -9,6 +9,7 @@ function createGrid(num) {
 
   for (let i = 1; i <= num * num; i++) {
     let box = document.createElement("div");
+    box.classList.add("box");
     box.style.border = "1px solid black";
     box.addEventListener("mouseover", (e) => {
       e.target.classList.add("hover");
@@ -19,8 +20,9 @@ function createGrid(num) {
 createGrid(20);
 
 function reset() {
-  gridContainer.remove("div");
-  createGrid(10);
+  let boxes = Array.from(document.querySelectorAll(".box"));
+  boxes.forEach((box) => box.remove());
+  createGrid(20);
 }
 
 resetButton.addEventListener("click", reset);
