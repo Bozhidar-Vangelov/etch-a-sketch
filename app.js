@@ -17,12 +17,13 @@ function createGrid(num) {
     gridContainer.appendChild(box);
   }
 }
-createGrid(20);
+createGrid(16);
 
 function reset() {
   let boxes = Array.from(document.querySelectorAll(".box"));
   boxes.forEach((box) => box.remove());
-  createGrid(20);
+  let num = parseInt(prompt("Please insert number of boxes between 16 and 100"))
+  createGrid(num);
 }
 
 resetButton.addEventListener("click", reset);
