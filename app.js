@@ -2,7 +2,7 @@ const gridContainer = document.querySelector(".grid-container");
 const resetButton = document.getElementById("reset");
 const rainbowButton = document.getElementById("rainbow");
 
-function createGrid(num, mode) {
+function createGrid(num) {
   gridContainer.setAttribute(
     "style",
     `grid-template-columns: repeat(${num}, 1fr); grid-template-rows: repeat(${num}, 1fr);`

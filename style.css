@@ -1,3 +1,8 @@
+body {
+  background-image: url("sketch.jpg");
+  font-family: "Poppins", sans-serif;
+}
+
 .heading {
   text-align: center;
   margin: 0;
@@ -5,9 +10,9 @@
 
 .grid-container {
   display: grid;
-  border: 1px solid black;
-  width: 500px;
-  height: 500px;
+  border: 5px solid black;
+  width: 600px;
+  height: 600px;
   margin: 0 auto;
 }
 
@@ -19,4 +24,25 @@
   display: flex;
   justify-content: center;
   margin: 20px;
+}
+
+#reset,
+#rainbow {
+  margin: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  backface-visibility: hidden;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+  border-color: #000;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
 }
