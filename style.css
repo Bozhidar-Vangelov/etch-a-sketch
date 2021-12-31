@@ -1,6 +1,6 @@
 body {
-  background-image: url("sketch.jpg");
-  font-family: "Poppins", sans-serif;
+  background-image: url('sketch.jpg');
+  font-family: 'Poppins', sans-serif;
 }
 
 .heading {
@@ -34,7 +34,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0.7rem 2rem;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
@@ -45,4 +45,19 @@ body {
   border-radius: 3rem;
   border-color: #000;
   transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+
+@media only screen and (max-width: 768px) {
+  #reset,
+  #rainbow {
+    font-weight: 300;
+    font-size: 14px;
+    height: 50px;
+    width: 100px;
+  }
+
+  .grid-container {
+    width: 350px;
+    height: 350px;
+  }
 }
