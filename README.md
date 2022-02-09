@@ -2,7 +2,7 @@
 
 #### [© The Odin Project](https://www.theodinproject.com/)
 
-🔗 [Live Demo](https://bozhidar-vangelov.github.io/rock-paper-scissors/) 👈
+🔗 [Live Demo](https://bozhidar-vangelov.github.io/etch-a-sketch/) 👈
 
 # Clone the repository
 
@@ -27,4 +27,3 @@ Create your own pixel art
 ##### Mobile view 📱
 
 ![mobile.jpg](https://i.ibb.co/DYLz9Qq/mobile-view.jpg)
-
